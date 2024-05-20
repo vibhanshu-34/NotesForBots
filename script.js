@@ -1,6 +1,7 @@
 const toggle_bar = document.getElementById('toggle-bar');
 const toggle_button = document.getElementById('toggle-button');
 const content = document.getElementById ('content');
+const footer = document.getElementById('footer');
 
 
 toggle_button.addEventListener("click",function (){
@@ -27,8 +28,10 @@ home_btn.addEventListener("click",function () {
 const page1_btn = document.getElementById('page1-button');
 const page1 = document.getElementById('page1');
 
+
 page1_btn.addEventListener("click",function () {
   page1.classList.toggle('page1-show');
   content.classList.toggle('content-none');
+  footer.classList.toggle =('hide-footer');
   
 });
