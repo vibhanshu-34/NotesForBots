@@ -38,7 +38,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .name{
@@ -106,7 +106,9 @@ body{
   margin-left: 80vw;
   transform: translate(0%,-120%);
   transition: transform 1s;
-  background: transparent;
+  border-left: 2px solid #08FFE9;
+  background: linear-gradient(45deg, #E578FF,#788BFF);
+  border-bottom-left-radius: 30px;
   position: fixed;
   display: flex;
   flex-direction: column;
